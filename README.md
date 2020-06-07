@@ -1,0 +1,2 @@
+# javax-sound-library-for-android
+Very often you need to use javax.sound. or com.sun.media.sound.* but due to dalvik limitation you can't, here you can find a ported version of the compiled jar file and also the source code to compile it with maven. (mvn clean package) in the directory with the pom.xml, also don't forget to set your java home variable to a jdk version of java for maven to work properly. Also check out https://github.com/didaRatsimba/javaxsound-portage-to-android he is the one who ported the library
